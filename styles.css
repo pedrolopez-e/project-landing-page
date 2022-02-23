@@ -189,3 +189,14 @@ h3 {
     border: 2px white solid;
 }
 
+/*-------------Footer-----------------*/
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
