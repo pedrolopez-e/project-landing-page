@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+/*---------------Top item-----------------*/
 .top {
     color: white;
     background-color: #1F2937;
@@ -81,3 +82,82 @@ button {
     border-radius: 10px;
     border: none;
 }
+
+/*-----------------Info item-------------------*/
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    height: 450px;
+}
+
+.image {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 147.297px;
+    width: 147.297px;
+}
+
+.images {
+    display: flex;
+    gap: 45px;
+}
+
+.pair-image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.info p {
+    color: grey;
+    font-size: 17px;
+    margin: 0;
+}
+
+/*------------Quote----------------*/
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    padding: 0;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+/*------------------Sign up-------------------*/
