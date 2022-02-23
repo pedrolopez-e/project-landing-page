@@ -161,3 +161,31 @@ h3 {
 }
 
 /*------------------Sign up-------------------*/
+.sign-up {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    color: white;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:140px;
+    border-radius: 15px;
+}
+
+.left-part p {
+    margin: 0;
+}
+
+.blue-container button {
+    border: 2px white solid;
+}
+
